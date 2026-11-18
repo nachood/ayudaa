@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ff86ad" />
+    <title>Para mi ma 💗</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=DM+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="aurora aurora-one" aria-hidden="true"></div>
+    <div class="aurora aurora-two" aria-hidden="true"></div>
+    <div class="sparkles" aria-hidden="true">
+      <span>✦</span><span>♡</span><span>✧</span><span>♡</span><span>✦</span>
+    </div>
+
+    <main class="page-shell">
+      <header class="topbar">
+        <div class="brand"><span class="brand-paw">🐾</span> nuestro rinconcito</div>
+        <div class="step-dots" aria-label="Progreso de la sorpresa">
+          <span class="dot is-active"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+      </header>
+
+      <section class="story-card" aria-live="polite">
+        <div class="story-inner">
+          <div class="eyebrow"><span class="heart-pulse">♥</span> una mini sorpresa para vos</div>
+
+          <div class="story-step is-visible" data-step="0">
+            <div class="intro-orbit" aria-hidden="true"><span>♡</span><span>✦</span><span>♡</span></div>
+            <p class="kicker intro-kicker">Ma...</p>
+            <h1 class="hero-title">tengo algo<br /><em>que decirte</em></h1>
+            <p class="soft-copy">Prometo que es algo importante</p>
+          </div>
+
+          <div class="story-step" data-step="1">
+            <p class="kicker">Bueno, la verdad es que...</p>
+            <h2 class="big-title">En realidad....<br /><em>yo...</em></h2>
+            <div class="speech-bubble">No te asustes, ma 💌</div>
+          </div>
+
+          <div class="story-step" data-step="2">
+            <p class="kicker">Tengo que confesarte algo</p>
+            <h2 class="big-title confession">SOY COMO<br /><em>PAPA 😭</em></h2>
+            <div class="photo-frame portrait-frame">
+              <img src="pelado.png" alt="El papá pelado" />
+              <span class="sticker sticker-left">oh no</span>
+              <span class="sticker sticker-right">😭</span>
+            </div>
+          </div>
+
+          <div class="story-step" data-step="3">
+            <div class="warning-icon" aria-hidden="true">🆘</div>
+            <h2 class="big-title smaller-title">PERO TENGO SOLUCION<br /><em>TE LO JURO</em></h2>
+            <p class="message-copy">Y VOS ME TENES QUE AYUDAR MAA 😭😭</p>
+            <div class="mini-hearts" aria-hidden="true">♡ ♡ ♡</div>
+          </div>
+
+          <div class="story-step game-step" data-step="4">
+            <p class="kicker">Misión capilar urgente</p>
+            <h2 class="game-title">TENES QUE AGARRAR<br />10 PELOS</h2>
+            <p class="game-copy">Van a caer desde arriba... ¡hacé click o tocá cada uno antes de que se escape!</p>
+            <div class="game-status"><span id="hairCount">0</span><span class="status-slash">/</span><span>10 pelos</span></div>
+            <div id="gameArena" class="game-arena" aria-label="Área del minijuego">
+              <div class="arena-hint">preparate... 🐾</div>
+            </div>
+            <div class="progress-track"><span id="progressBar"></span></div>
+            <p id="gameFeedback" class="game-feedback">La melena depende de vos 💗</p>
+          </div>
+
+          <div class="story-step" data-step="5">
+            <div class="success-burst" aria-hidden="true">✦</div>
+            <p class="kicker">¡Misión cumplida!</p>
+            <h2 class="big-title thank-you">GRACIAS<br /><em>MAMA :D</em></h2>
+            <div class="photo-frame thank-frame">
+              <img src="foto1.png" alt="Nuestro recuerdo juntos" />
+              <span class="sticker sticker-bottom">te amo</span>
+            </div>
+          </div>
+
+          <div class="story-step final-step" data-step="6">
+            <div class="final-paws" aria-hidden="true">🐾 🐾 🐾</div>
+            <h2 class="final-title">YA NO SOY COMO<br /><em>EL PELADO PUT<br />DE PAPA.</em></h2>
+            <p class="love-line">TE AMO MA <span>&lt;3</span></p>
+            <div class="photo-frame final-frame">
+              <img src="risa.jfif" alt="Una sonrisa para mamá" />
+            </div>
+            <p class="signature">con amor, tu hijo de melena en recuperación 💕</p>
+          </div>
+
+          <div class="controls">
+            <button id="nextButton" class="next-button" type="button">
+              <span id="buttonLabel">Siguiente</span><span class="button-arrow">→</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer-note">hecho con amor, pelos y un poquito de drama ✨</footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
